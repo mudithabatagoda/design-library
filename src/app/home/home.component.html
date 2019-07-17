@@ -1,0 +1,411 @@
+<div class="clr-row">
+  <h1 style="width:100%">Easy2You design guidline V-1.0</h1>
+  <p>This design guide will help the developers to work easy with the application. The guide will give the UI support
+    to every web project in Easy2You.</p>
+</div>
+
+<div class="clr-row">
+  <h3 class="block">Application layout</h3>
+  <p>The application should have the following layout for each of the project.</p>
+</div>
+<div class="clr-row">
+  <div class="clr-col-md-8">
+    <pre _ngcontent-clarity-c4="" class="  language-html">
+          <code _ngcontent-clarity-c4="" class="  language-html">
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>main-container<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert alert-app-level<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              ...
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>header header-6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              ...
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>subnav<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              ...
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>content-container<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>content-area<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                  ...
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>sidenav<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                  ...
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    </code>
+    </pre>
+  </div>
+  <div class="clr-col-md-4">
+      <img _ngcontent-bsv-c0="" class="" src="/assets/images/header_contentarea.png">
+  </div>
+</div>
+
+<div class="clr-row">
+    <h3 class="block">Grid system</h3>
+    <p>A grid provides a structure of rows and columns for aligning content. Grids are useful because they help create a familiar and easily navigable structure for content.</p>
+</div>
+<div class="clr-row">
+        <p>Using the responsive design layout effectively.</p>
+    <div class="clr-col-md-12">
+            <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Width</th>
+                            <th>class prefix</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Extra small< 576px</td>
+                            <td>.clr-col-</td>
+                        </tr>
+                        <tr>
+                            <td>Small ≥ 576px</td>
+                            <td>.clr-col-sm-</td>
+                        </tr>
+                        <tr>
+                            <td>Medium ≥ 768px</td>
+                            <td>.clr-col-md-</td>
+                        </tr>
+                        <tr>
+                            <td>Large ≥ 992px</td>
+                            <td>.clr-col-lg-</td>
+                        </tr>
+                        <tr>
+                            <td>Extra large ≥ 1200px</td>
+                            <td>.clr-col-xl-</td>
+                        </tr>
+                    </tbody>
+                </table>
+    </div>
+</div>
+    <div class="clr-row">
+        <p>Grid example</p>
+    </div>
+    <div _ngcontent-clarity-c24="" class="clr-row">
+        <div _ngcontent-clarity-c24="" class="clr-col-sm-12 clr-col-md-6">
+            <span _ngcontent-clarity-c24="" class="clr-example-col-value grid-color">clr-col-sm-12 clr-col-md-6</span>
+        </div>
+        <div _ngcontent-clarity-c24="" class="clr-col-sm-12 clr-col-md-6">
+            <span _ngcontent-clarity-c24="" class="clr-example-col-value grid-color">clr-col-sm-12 clr-col-md-6</span>
+        </div>
+        <div _ngcontent-clarity-c24="" class="clr-col-sm-12 clr-col-md-12 marginto15">
+            <span _ngcontent-clarity-c24="" class="clr-example-col-value grid-color">clr-col-sm-12 clr-col-md-12</span>
+        </div>
+    </div>
+    <div class="clr-row">
+     <pre _ngcontent-clarity-c4="" class="language-html ng-star-inserted" style="width:100%">
+        <code _ngcontent-clarity-c4="" class="  language-html">
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-col-sm-12 clr-col-md-6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>clr-col-sm-12 clr-col-md-6<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-col-sm-12 clr-col-md-6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>clr-col-sm-12 clr-col-md-6<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-col-sm-12 clr-col-md-12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>clr-col-sm-12 clr-col-md-12<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        </code>
+    </pre>
+    </div>
+<div class="clr-row">
+    <h3 class="block">Color Palette</h3>
+    <p>This will contain all the color codes used in the application except for the status colors.</p>
+  </div>
+  <div class="clr-row margin-top-15">
+       <div class="clr-col-md-1 cards">
+         <div class="color-area header-color">
+            
+         </div>
+         <div class="hex-code">
+            #002538
+         </div>
+       </div>
+
+       <div class="clr-col-md-1 cards">
+          <div class="color-area primary-colors-01">
+
+          </div>
+          <div class="hex-code">
+              #002538
+          </div>
+        </div>
+        <div class="clr-col-md-1 cards">
+            <div class="color-area primary-colors-01">
+  
+            </div>
+            <div class="hex-code">
+                #2b4260
+            </div>
+          </div>
+          <div class="clr-col-md-1 cards">
+              <div class="color-area primary-colors-02">
+    
+              </div>
+              <div class="hex-code">
+                  #4c687e
+              </div>
+            </div>
+            <div class="clr-col-md-1 cards">
+                <div class="color-area primary-colors-03">
+      
+                </div>
+                <div class="hex-code">
+                    #7ebfbc
+                </div>
+              </div>
+  </div>
+
+  <div class="clr-row margin-top-15">
+      <div class="clr-col-md-1 cards">
+          <div class="color-area primary-colors-04">
+
+          </div>
+          <div class="hex-code">
+              #ff3f34
+          </div>
+        </div>
+
+        <div class="clr-col-md-1 cards">
+            <div class="color-area primary-colors-05">
+  
+            </div>
+            <div class="hex-code">
+                #05c46b
+            </div>
+          </div>
+          <div class="clr-col-md-1 cards">
+              <div class="color-area primary-colors-06">
+    
+              </div>
+              <div class="hex-code">
+                  #05c46b
+              </div>
+            </div>
+            <div class="clr-col-md-1 cards">
+                <div class="color-area primary-colors-07">
+      
+                </div>
+                <div class="hex-code">
+                    #d2dae2
+                </div>
+              </div>
+  </div>
+  <div class="clr-row">
+      <h3 class="block">Inputs</h3>
+      <p>This section will talk about how to add a input to the application.</p>
+    </div>
+
+    <div class="clr-row">
+      <div class="clr-col-md-8">
+          <pre _ngcontent-clarity-c4="" class="  language-html">
+              <code _ngcontent-clarity-c4="" class="  language-html">
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>basic<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Enter value here<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-input<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              </code>
+           </pre>
+      </div>
+      <div class="clr-col-md-4">
+          <input type="text" id="basic" placeholder="Enter value here" class="clr-input">
+          <p><b>Make the .clr-input width:100%</b></p>
+      </div>
+    </div>
+
+
+    <div class="clr-row">
+      <div class="clr-col-md-8">
+          <pre _ngcontent-clarity-c4="" class="language-html ng-star-inserted">
+             <code _ngcontent-clarity-c4="" class="  language-html">
+             <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>basic<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-control-label<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Basic input<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+             <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>basic<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Enter value here<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-input<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        </code>
+    </pre>
+        </div>
+        <div class="clr-col-md-4">
+            <label for="basic" class="clr-control-label">Basic input</label>
+            <input type="text" id="basic" placeholder="Enter value here" class="clr-input">
+        </div>
+    </div>
+
+    <div class="clr-row">
+       <h3 class="block">Select</h3>
+    </div>
+    <div class="clr-row">
+        <div class="clr-col-md-8">
+            <pre _ngcontent-clarity-c2="" class="language-html ng-star-inserted">
+                <code _ngcontent-clarity-c2="" class="  language-html">
+                    
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>select-full<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-control-label<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Basic select<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-control-container<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-select-wrapper<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>select-full<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-select<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>One<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Two<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Three<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-icon</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-validate-icon<span class="token punctuation">"</span></span> <span class="token attr-name">shape</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>exclamation-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-icon</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>clr-subtext<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Helper Text<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                </code>
+            </pre>
+        </div>
+        <div class="clr-col-md-4">
+                <div class="clr-form-control">
+                    <label for="select-full" class="clr-control-label">Basic select</label>
+                    <div class="clr-control-container">
+                        <div class="clr-select-wrapper">
+                        <select id="select-full" class="clr-select">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+                        </div>
+                    <span class="clr-subtext">Helper Text</span>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="clr-row">
+        <h3 class="block">Accordion</h3>
+        <p>Accordions by default only allow one panel to be open at a time. To enable multiple panels set clrAccordionMultiPanel="true" on the clr-accordion component.</p>
+    </div>
+    <div class="clr-row">
+        <div class="clr-col-md-8">
+        <pre _ngcontent-clarity-c4="" class="language-html ng-star-inserted">
+            <code _ngcontent-clarity-c4="" class="  language-html">
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-panel</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-title</span><span class="token punctuation">&gt;</span></span>Item 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-title</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-content</span> <span class="token attr-name">*clrIfExpanded</span><span class="token punctuation">&gt;</span></span>Content 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-content</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-panel</span><span class="token punctuation">&gt;</span></span>
+                
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-panel</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-title</span><span class="token punctuation">&gt;</span></span>Item 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-title</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-content</span> <span class="token attr-name">*clrIfExpanded</span><span class="token punctuation">&gt;</span></span>Content 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-content</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-panel</span><span class="token punctuation">&gt;</span></span>
+                
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-panel</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-title</span><span class="token punctuation">&gt;</span></span>Item 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-title</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>clr-accordion-content</span> <span class="token attr-name">*clrIfExpanded</span><span class="token punctuation">&gt;</span></span>Content 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-content</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion-panel</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>clr-accordion</span><span class="token punctuation">&gt;</span></span>
+            </code>
+            </pre>
+        </div>
+        <div class="clr-col-md-4">
+                <clr-accordion style="margin-top:15px;">
+                        <clr-accordion-panel>
+                          <clr-accordion-title>Item 1</clr-accordion-title>
+                          <clr-accordion-content *clrIfExpanded>Content 1</clr-accordion-content>
+                        </clr-accordion-panel>
+                      
+                        <clr-accordion-panel>
+                          <clr-accordion-title>Item 2</clr-accordion-title>
+                          <clr-accordion-content *clrIfExpanded>Content 2</clr-accordion-content>
+                        </clr-accordion-panel>
+                      
+                        <clr-accordion-panel>
+                          <clr-accordion-title>Item 3</clr-accordion-title>
+                          <clr-accordion-content *clrIfExpanded>Content 3</clr-accordion-content>
+                        </clr-accordion-panel>
+                      </clr-accordion>
+        </div>
+    </div>
+
+    <div class="clr-row">
+        <h3 class="block">Buttons</h3>
+        <p>Buttons allow an application to communicate action and direct user intent.</p>
+    </div>
+
+    <div class="clr-row">
+        <div class="clr-col-md-8">
+          <p>Primary button</p>
+
+          <pre _ngcontent-clarity-c4="" class="language-html ng-star-inserted">
+              <code _ngcontent-clarity-c4="" class="  language-html">
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn overried btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Primary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                  
+                </code>
+            </pre>
+
+        </div>
+        <div class="clr-col-md-4">
+            <div style="margin-top: 55px;">
+                <button class="btn overried btn-primary">Primary</button>
+            </div>
+        </div>
+    </div>
+    <div class="clr-row">
+        <div class="clr-col-md-8">
+          <p>Primary button 02 (for secondary actions)</p>
+
+          <pre _ngcontent-clarity-c4="" class="language-html ng-star-inserted">
+              <code _ngcontent-clarity-c4="" class="  language-html">
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn overried-second btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Primary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                  
+                </code>
+            </pre>
+
+        </div>
+        <div class="clr-col-md-4">
+            <div style="margin-top: 55px;">
+                <button class="btn overried-second btn-primary">Primary</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr-row">
+        <div class="clr-col-md-8">
+          <p>Primary button 03 (Delete action button)</p>
+
+          <pre _ngcontent-clarity-c4="" class="language-html ng-star-inserted">
+              <code _ngcontent-clarity-c4="" class="  language-html">
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn overried-delete btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Primary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                  
+                </code>
+            </pre>
+
+        </div>
+        <div class="clr-col-md-4">
+            <div style="margin-top: 55px;">
+                <button class="btn overried-delete btn-primary">Primary</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr-row">
+        <div class="clr-col-md-8">
+          <p>Primary button 03 (Close action button)</p>
+
+          <pre _ngcontent-clarity-c4="" class="language-html ng-star-inserted">
+              <code _ngcontent-clarity-c4="" class="  language-html">
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn overried-close btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Primary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                  
+                </code>
+            </pre>
+
+        </div>
+        <div class="clr-col-md-4">
+            <div style="margin-top: 55px;">
+                <button class="btn overried-close btn-primary">Primary</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr-row">
+        <div class="clr-col-md-8">
+          <p>Secondary button 01 (for secondary actions - canbe used inside tabs/ when there are more than one main action on the page)</p>
+          <pre _ngcontent-clarity-c12="" class="language-html ng-star-inserted">
+              <code _ngcontent-clarity-c12="" class="  language-html">
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>overried-secondary-primary btn<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Secondary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                </code>
+            </pre>
+        </div>
+        <div class="clr-col-md-4">
+            <div style="margin-top: 55px;">
+                <button class="btn">Secondary</button>
+            </div>
+        </div>
+    </div>

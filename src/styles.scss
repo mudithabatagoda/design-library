@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+//overide logo
+.logo-overried{
+    width:90%;
+}
+
+header .branding {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 8.5rem;
+    padding: 0 1rem;
+    height: 2.5rem;
+    width: 200px;
+}
+
+.clr-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.block{
+    display: block;
+    width: 100%;
+}
+
+.cards{
+    border: 1px solid #CCC;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.color-area{
+    height: 70px;
+}
+
+.hex-code{
+    text-align: center;
+}
+
+.margin-top-15{
+    margin-top: 15px;
+}
+
+.main-container{
+    height:100% !important;
+}
+
+.clr-input{
+    width:100%;
+}
